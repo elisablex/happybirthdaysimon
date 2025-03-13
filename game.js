@@ -36,7 +36,7 @@ class BirthdayHuntGame extends Phaser.Scene {
     spawnTarget() {
         let x = Phaser.Math.Between(50, 750);
         let y = Phaser.Math.Between(50, 550);
-        let target = this.targets.create(x, y, "target").setScale(0.3);
+        let target = this.targets.create(x, y, "target").setScale(0.1);
         target.setInteractive();
     }
 
