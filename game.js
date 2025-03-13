@@ -10,7 +10,8 @@ class BirthdayHuntGame extends Phaser.Scene {
     }
 
     create() {
-        this.add.image(400, 300, "background").setScale(1.5);
+        let bg = this.add.image(400, 300, "background");
+        bg.setDisplaySize(800, 600); 
         this.crosshair = this.add.image(400, 300, "crosshair").setScale(0.2);
         this.input.setDefaultCursor("none");
         
