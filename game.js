@@ -6,7 +6,7 @@ class BirthdayHuntGame extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image("background", "forest.jpg");
+        this.load.image("background", "forest.jpg"); // Image designed by brgfx / Freepik
         this.load.image("target", "birthday_cake.png");
         this.load.image("crosshair", "crosshair.png");
     }
