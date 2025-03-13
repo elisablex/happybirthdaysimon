@@ -1,14 +1,12 @@
-import Phaser from "phaser";
-
 class BirthdayHuntGame extends Phaser.Scene {
     constructor() {
         super({ key: "BirthdayHuntGame" });
     }
 
     preload() {
-        this.load.image("background", "44780.jpg"); // Image designed by brgfx / Freepik
-        this.load.image("target", "83b0cb79-b6c9-4ff9-b73b-35cf390a639f.jpg");
-        this.load.image("crosshair", "cb2251db-559f-4336-96fc-237928bd6bc0.jpg");
+        this.load.image("background", "https://elisablex.github.io/happybirthdaysimon/44780.jpg"); // Image designed by brgfx / Freepik
+        this.load.image("target", "https://elisablex.github.io/happybirthdaysimon/83b0cb79-b6c9-4ff9-b73b-35cf390a639f.jpg");
+        this.load.image("crosshair", "https://elisablex.github.io/happybirthdaysimon/cb2251db-559f-4336-96fc-237928bd6bc0.jpg");
     }
 
     create() {
